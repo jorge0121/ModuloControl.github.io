@@ -8,6 +8,7 @@ body {
 
 .navbar {
     background-color: #333;
+    height: 50px;
   
 }
 
@@ -45,10 +46,40 @@ body {
     overflow: hidden;
    
 }
+.card1{
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 30%;
+    height: 300px;
+}
+.card1 p{
+    margin:0;
+    height: 100hv;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Ajusta el ancho máximo según sea necesario */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    height: 100hv;
+    margin: 0;
+   
+}
 
 .card img {
     width: 100%;
     height: 300px;
+}
+
+.card2 img {
+    width: 100%;
+    height: 80px;
+   
 }
 
 .card-content {
@@ -65,4 +96,10 @@ body {
 }
 .Espacio{
     height: 52px;
+}
+.descripcion{
+    border: 2px solid black;
+    margin-left: 25px;
+    border-radius: 25px;
+   
 }
